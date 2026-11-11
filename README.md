@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A student portfolio made with **HTML and CSS only**. It has a warm editorial style, responsive sections, in-page navigation for all eight sections, project cards, a subtle animated background, shooting stars, a CSS animated race car, hover animations, a LinkedIn button, a contact area, and a CSS-only light/dark theme switch.
+A student portfolio made with **HTML and CSS only**. It has a warm editorial style, responsive sections, in-page navigation for all eight sections, project cards, a subtle animated background, shooting stars, a CSS animated race car on a marked track, hover animations, a LinkedIn button, a contact area, and a CSS-only light/dark theme switch.
 
 ## Files
 
