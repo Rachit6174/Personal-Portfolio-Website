@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A student portfolio made with **HTML and CSS only**. It has a warm editorial style, responsive sections, in-page navigation for all eight sections, project cards, a contact area, and a CSS-only light/dark theme switch.
+A student portfolio made with **HTML and CSS only**. It has a warm editorial style, responsive sections, in-page navigation for all eight sections, project cards, a subtle animated background, a LinkedIn button, a contact area, and a CSS-only light/dark theme switch.
 
 ## Files
 
@@ -13,7 +13,7 @@ A student portfolio made with **HTML and CSS only**. It has a warm editorial sty
 
 Keep `index.html` and `style.css` in the same folder. Open `index.html` in a browser. The page includes designed image placeholders; if you add your own images, save them as `images/profile.jpg` and `images/project.jpg` (or change the paths in the HTML).
 
-The typography uses Google Fonts when an internet connection is available and falls back to system fonts when it is not.
+The typography uses Google Fonts when an internet connection is available and falls back to system fonts when it is not. The background animation is CSS-only and automatically stops when the visitor has requested reduced motion.
 
 ## Personalize it
 
