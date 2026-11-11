@@ -50,6 +50,8 @@
         <div class="floating-note"><span class="note-star">✳</span><span>Made with<br>curiosity</span></div>
         <span class="art-caption">A student portfolio · 2026</span>
       </div>
+      <div class="starfield" aria-hidden="true"><span class="shooting-star star-one"></span><span class="shooting-star star-two"></span><span class="shooting-star star-three"></span><span class="twinkle twinkle-one">✦</span><span class="twinkle twinkle-two">✧</span></div>
+      <div class="race-lane" aria-hidden="true"><span class="race-car">🏎️</span></div>
       <a class="scroll-cue" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
     </section>
 
