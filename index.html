@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal portfolio introducing Your Name, their skills, projects, and interests.">
+  <title>Your Name — Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+  <div class="site-shell">
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Your Name home"><span class="brand-mark">YN</span><span>Your Name</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <label class="theme-switch" for="theme-toggle"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark</span></label>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Student · Curious by nature</p>
+        <h1>Learning today.<br><span class="accent-text">Building for tomorrow.</span></h1>
+        <p class="hero-intro">Hi, I'm <strong>Your Name</strong> — a student exploring web development, thoughtful design, and the little details that make the web feel welcoming.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-note">Currently learning <span>HTML</span> and <span>CSS</span></p>
+      </div>
+      <div class="hero-art" aria-label="Profile photo area">
+        <div class="photo-frame">
+          <img src="images/profile.jpg" alt="Portrait of Your Name" onerror="this.style.display='none'">
+          <div class="photo-placeholder"><span>YN</span><small>Add your photo<br>as images/profile.jpg</small></div>
+        </div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-note"><span class="note-star">✳</span><span>Made with<br>curiosity</span></div>
+        <span class="art-caption">A student portfolio · 2026</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / A little context</p><h2>Curious mind,<br><span class="accent-text">steady progress.</span></h2></div>
+      <div class="about-copy">
+        <p class="lead">I believe the best way to learn is to make something, see what happens, and keep improving it.</p>
+        <p>I'm a student building my foundation in technology and creative problem-solving. Right now, I'm learning how websites are structured with HTML and styled with CSS. I enjoy turning new ideas into small projects and learning from every iteration.</p>
+        <div class="about-tags"><span>Always learning</span><span>Thoughtful design</span><span>Curious by nature</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading section-heading-row"><div><p class="eyebrow">02 / The learning path</p><h2>Education</h2></div><p class="section-aside">Every new topic is another tool<br>for the things I hope to make.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">20XX — 20XX</p><div><h3>Your School Name</h3><p>School education · Add your subjects, stream, or a detail you’re proud of.</p></div><span class="timeline-label">School</span></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">20XX — PRESENT</p><div><h3>Your College or Course</h3><p>Your course or department · First year</p></div><span class="timeline-label">Learning now</span></article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / My toolkit</p><h2>Skills in progress</h2><p class="section-aside">A few things I’m learning and practicing, one step at a time.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Building clear, meaningful page structure.</p><div class="skill-track"><span style="width: 68%"></span></div><small>Learning the foundations</small></article>
+        <article class="skill-card"><span class="skill-number">02</span><span class="skill-icon skill-icon-css">✳</span><h3>CSS</h3><p>Exploring color, layout, and responsive design.</p><div class="skill-track"><span style="width: 52%"></span></div><small>Growing with every project</small></article>
+        <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon skill-icon-people">◎</span><h3>Communication</h3><p>Sharing ideas clearly and listening with care.</p><div class="skill-track"><span style="width: 76%"></span></div><small>A skill I use every day</small></article>
+        <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon skill-icon-team">↗</span><h3>Teamwork</h3><p>Learning together and helping good ideas grow.</p><div class="skill-track"><span style="width: 72%"></span></div><small>Better work, together</small></article>
+      </div>
+      <p class="fine-print">Progress bars are personal estimates. Update them to reflect your own experience.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading section-heading-row"><div><p class="eyebrow">04 / Selected experiments</p><h2>Things I've made</h2></div><p class="section-aside">Small projects, real lessons.<br>More ideas are on the way.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual project-visual-purple"><img src="images/project.jpg" alt="Preview of my first website" onerror="this.style.display='none'"><div class="visual-placeholder"><span class="browser-dots"><i></i><i></i><i></i></span><span class="visual-code">&lt;hello, world /&gt;</span><span class="visual-shape">✳</span><span class="visual-caption">A first step on the web</span></div><span class="project-index">PROJECT 01</span></div>
+          <div class="project-details"><div><p class="mono muted">HTML · CSS · FIRST BUILD</p><h3>My First Website</h3><p>A simple website made while learning how structure and style work together.</p></div><a class="round-link" href="#contact" aria-label="Ask me about My First Website">↗</a></div>
+        </article>
+        <article class="project-card project-coming"><div class="coming-mark">✳</div><p class="mono">NEXT UP</p><h3>Room for the<br>next idea.</h3><p>I’m learning something new every day. This space is ready for what I build next.</p><a href="#contact" class="text-link">Let’s connect <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section interests-section" id="hobbies">
+      <div class="section-heading"><p class="eyebrow">05 / Outside the screen</p><h2>Things that<br><span class="accent-text">inspire me.</span></h2></div>
+      <div class="interest-list">
+        <article class="interest-item"><span class="interest-symbol">✳</span><div><h3>Reading</h3><p>Finding new ideas and different points of view.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">♫</span><div><h3>Music</h3><p>A good soundtrack for quiet focus or a fresh start.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">＋</span><div><h3>Your hobby</h3><p>Replace this with something you enjoy doing.</p></div><span class="interest-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="section-heading"><p class="eyebrow">06 / Milestones</p><h2>Little wins<br>along the way.</h2></div>
+      <div class="achievement-card"><span class="achievement-stamp">✳</span><div><p class="mono muted">YEAR · EVENT</p><h3>Your certificate or achievement</h3><p>Add a workshop, award, competition, course, or another milestone you’re proud of.</p></div><span class="achievement-arrow">↗</span></div>
+      <p class="fine-print">Still working toward your first certificate? Replace this card with a learning goal.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner"><p class="eyebrow">07 / Say hello</p><h2>Have an idea?<br><span>I'd love to hear it.</span></h2><p class="contact-intro">Whether it’s a project, a question, or a good book recommendation — my inbox is open.</p>
+        <a class="button button-light" href="mailto:you@example.com">Email me <span aria-hidden="true">↗</span></a>
+        <div class="social-links"><a href="https://github.com/your-username">GitHub ↗</a><a href="https://www.linkedin.com/">LinkedIn ↗</a></div>
+        <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+          <p class="form-heading">Or leave a note</p>
+          <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
+          <label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required>
+          <label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="What would you like to say?" required></textarea>
+          <button class="button button-light" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="form-note">The form uses your email app to prepare a message. It does not send anything by itself.</p>
+      </div>
+      <div class="contact-decoration" aria-hidden="true">✳</div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">YN</span><span>Your Name</span></a><p>Made with patience, practice, and HTML + CSS.</p><a href="#home">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>
