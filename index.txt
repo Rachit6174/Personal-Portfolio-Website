@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A personal portfolio introducing Your Name, their skills, projects, and interests.">
-  <title>Your Name — Student Portfolio</title>
+  <meta name="description" content="Portfolio of Rachit B Angadi, a first-year CSE (AI & ML) undergraduate at S-VYASA.">
+  <title>Rachit B Angadi — Student Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
   <div class="site-shell">
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Your Name home"><span class="brand-mark">YN</span><span>Your Name</span></a>
+    <a class="brand" href="#home" aria-label="Rachit B Angadi home"><span class="brand-mark">RA</span><span>Rachit B Angadi</span></a>
     <nav aria-label="Main navigation">
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -33,22 +33,22 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> Student · Curious by nature</p>
         <h1>Learning today.<br><span class="accent-text">Building for tomorrow.</span></h1>
-        <p class="hero-intro">Hi, I'm <strong>Your Name</strong> — a student exploring web development, thoughtful design, and the little details that make the web feel welcoming.</p>
+        <p class="hero-intro">Hi, I'm <strong>Rachit B Angadi</strong> — a first-year CSE (AI &amp; ML) undergraduate learning web development, building AI projects, and exploring competitive programming.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
           <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
-          <a class="button button-linkedin" href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button button-linkedin" href="https://www.linkedin.com/in/ugkiuvj/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
-        <p class="hero-note">Currently learning <span>HTML</span> and <span>CSS</span></p>
+        <p class="hero-note">First year · S-VYASA <span>2026</span></p>
       </div>
-      <div class="hero-art" aria-label="Profile photo area">
+      <div class="hero-art" aria-label="Portfolio avatar artwork">
         <div class="photo-frame">
-          <img src="images/profile.jpg" alt="Portrait of Your Name" onerror="this.style.display='none'">
-          <div class="photo-placeholder"><span>YN</span><small>Add your photo<br>as images/profile.jpg</small></div>
+          <img src="images/avatar.webp" alt="Iron Man artwork chosen as Rachit’s portfolio avatar">
+          <div class="photo-placeholder"><span>RA</span><small>Rachit B Angadi<br>CSE · AI &amp; ML</small></div>
         </div>
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
         <div class="floating-note"><span class="note-star">✳</span><span>Made with<br>curiosity</span></div>
-        <span class="art-caption">A student portfolio · 2026</span>
+        <span class="art-caption">S-VYASA · First year</span>
       </div>
       <div class="starfield" aria-hidden="true"><span class="shooting-star star-one"></span><span class="shooting-star star-two"></span><span class="shooting-star star-three"></span><span class="twinkle twinkle-one">✦</span><span class="twinkle twinkle-two">✧</span></div>
       <div class="race-lane" aria-hidden="true"><span class="race-car">🏎️</span></div>
@@ -58,62 +58,78 @@
     <section class="section about-section" id="about">
       <div class="section-heading"><p class="eyebrow">01 / A little context</p><h2>Curious mind,<br><span class="accent-text">steady progress.</span></h2></div>
       <div class="about-copy">
-        <p class="lead">I believe the best way to learn is to make something, see what happens, and keep improving it.</p>
-        <p>I'm a student building my foundation in technology and creative problem-solving. Right now, I'm learning how websites are structured with HTML and styled with CSS. I enjoy turning new ideas into small projects and learning from every iteration.</p>
-        <div class="about-tags"><span>Always learning</span><span>Thoughtful design</span><span>Curious by nature</span></div>
+        <p class="lead">I’m a first-year CSE (AI &amp; ML) undergraduate at S-VYASA, learning to turn curiosity into useful projects.</p>
+        <p>I’m interested in web development, artificial intelligence, and competitive programming. I’m working toward competing in ICPC and GSoC, and hope to become a quant in the future. I enjoy leading projects, exploring new ideas, and steadily building my technical foundations.</p>
+        <div class="about-tags"><span>Competitive programming</span><span>AI &amp; ML</span><span>Future quant</span><span>Project leader</span></div>
       </div>
     </section>
 
     <section class="section" id="education">
-      <div class="section-heading section-heading-row"><div><p class="eyebrow">02 / The learning path</p><h2>Education</h2></div><p class="section-aside">Every new topic is another tool<br>for the things I hope to make.</p></div>
+      <div class="section-heading section-heading-row"><div><p class="eyebrow">02 / The learning path</p><h2>Education</h2></div><p class="section-aside">My learning journey so far,<br>from Hubli to S-VYASA.</p></div>
       <div class="timeline">
-        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">20XX — 20XX</p><div><h3>Your School Name</h3><p>School education · Add your subjects, stream, or a detail you’re proud of.</p></div><span class="timeline-label">School</span></article>
-        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">20XX — PRESENT</p><div><h3>Your College or Course</h3><p>Your course or department · First year</p></div><span class="timeline-label">Learning now</span></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">KINDERGARTEN</p><div><h3>Humphrey’s Anglo-Indian Primary School</h3><p>Hubli</p></div><span class="timeline-label">Early years</span></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">CLASSES 1–10</p><div><h3>JSS SMCS</h3><p>Hubli</p></div><span class="timeline-label">School</span></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">CLASSES 11–12</p><div><h3>Sri Chaitanya Techno School</h3><p>Hubli</p></div><span class="timeline-label">Pre-university</span></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><p class="mono muted">2026 — PRESENT</p><div><h3>S-VYASA Deemed to be University</h3><p>First-year CSE (AI &amp; ML) undergraduate · Learning partner: BOSSCODER School of Technology</p></div><span class="timeline-label">University</span></article>
       </div>
     </section>
 
     <section class="section skills-section" id="skills">
-      <div class="section-heading"><p class="eyebrow">03 / My toolkit</p><h2>Skills in progress</h2><p class="section-aside">A few things I’m learning and practicing, one step at a time.</p></div>
+      <div class="section-heading"><p class="eyebrow">03 / My toolkit</p><h2>Skills in progress</h2><p class="section-aside">Technical foundations and broader skills<br>I’m building as an undergraduate.</p></div>
       <div class="skill-grid">
-        <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Building clear, meaningful page structure.</p><div class="skill-track"><span style="width: 68%"></span></div><small>Learning the foundations</small></article>
-        <article class="skill-card"><span class="skill-number">02</span><span class="skill-icon skill-icon-css">✳</span><h3>CSS</h3><p>Exploring color, layout, and responsive design.</p><div class="skill-track"><span style="width: 52%"></span></div><small>Growing with every project</small></article>
-        <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon skill-icon-people">◎</span><h3>Communication</h3><p>Sharing ideas clearly and listening with care.</p><div class="skill-track"><span style="width: 76%"></span></div><small>A skill I use every day</small></article>
-        <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon skill-icon-team">↗</span><h3>Teamwork</h3><p>Learning together and helping good ideas grow.</p><div class="skill-track"><span style="width: 72%"></span></div><small>Better work, together</small></article>
+        <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Structuring clear, accessible web pages.</p><small>Web development</small></article>
+        <article class="skill-card"><span class="skill-number">02</span><span class="skill-icon skill-icon-css">✳</span><h3>CSS</h3><p>Styling layouts and responsive interfaces.</p><small>Web development</small></article>
+        <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon skill-icon-team">J</span><h3>Java</h3><p>Learning programming fundamentals.</p><small>Programming</small></article>
+        <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon skill-icon-people">Py</span><h3>Python</h3><p>Building projects and exploring AI tools.</p><small>Programming</small></article>
+        <article class="skill-card"><span class="skill-number">05</span><span class="skill-icon skill-icon-css">∑</span><h3>Maths for ML</h3><p>Exploring mathematical foundations for machine learning.</p><small>AI &amp; machine learning</small></article>
+        <article class="skill-card"><span class="skill-number">06</span><span class="skill-icon">✧</span><h3>Agentic AI</h3><p>Learning about AI agents and their workflows.</p><small>Artificial intelligence</small></article>
+        <article class="skill-card"><span class="skill-number">07</span><span class="skill-icon skill-icon-team">↗</span><h3>Micro-MBA</h3><p>Building business and leadership perspectives.</p><small>Business learning</small></article>
       </div>
-      <p class="fine-print">Progress bars are personal estimates. Update them to reflect your own experience.</p>
     </section>
 
     <section class="section projects-section" id="projects">
-      <div class="section-heading section-heading-row"><div><p class="eyebrow">04 / Selected experiments</p><h2>Things I've made</h2></div><p class="section-aside">Small projects, real lessons.<br>More ideas are on the way.</p></div>
+      <div class="section-heading section-heading-row"><div><p class="eyebrow">04 / Selected projects</p><h2>Things I've made</h2></div><p class="section-aside">Projects I’ve built and led,<br>each one teaching me something new.</p></div>
       <div class="project-grid">
         <article class="project-card project-featured">
-          <div class="project-visual project-visual-purple"><img src="images/project.jpg" alt="Preview of my first website" onerror="this.style.display='none'"><div class="visual-placeholder"><span class="browser-dots"><i></i><i></i><i></i></span><span class="visual-code">&lt;hello, world /&gt;</span><span class="visual-shape">✳</span><span class="visual-caption">A first step on the web</span></div><span class="project-index">PROJECT 01</span></div>
-          <div class="project-details"><div><p class="mono muted">HTML · CSS · FIRST BUILD</p><h3>My First Website</h3><p>A simple website made while learning how structure and style work together.</p></div><a class="round-link" href="#contact" aria-label="Ask me about My First Website">↗</a></div>
+          <div class="project-banner banner-runbook"><span class="project-index">PROJECT 01</span><span class="banner-icon">⌘</span><span class="banner-label">INCIDENT RESPONSE · AI</span></div>
+          <div class="project-details"><div><p class="mono muted">PYTHON · FASTAPI · GROQ · HINDSIGHT</p><h3>RunBook-AI</h3><p>An AI incident-response assistant that recalls past incidents and suggests human-reviewed remediation steps.</p><span class="project-role">Project Lead</span></div><a class="round-link" href="https://github.com/Rachit6174/RunBook-AI" target="_blank" rel="noopener noreferrer" aria-label="View RunBook-AI on GitHub">↗</a></div>
         </article>
-        <article class="project-card project-coming"><div class="coming-mark">✳</div><p class="mono">NEXT UP</p><h3>Room for the<br>next idea.</h3><p>I’m learning something new every day. This space is ready for what I build next.</p><a href="#contact" class="text-link">Let’s connect <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card project-featured">
+          <div class="project-banner banner-releaf"><span class="project-index">PROJECT 02</span><span class="banner-icon">✿</span><span class="banner-label">PRIVATE · OFFLINE · HUMAN-CENTERED</span></div>
+          <div class="project-details"><div><p class="mono muted">WEB APP · PRIVACY-FIRST</p><h3>Re-Leaf</h3><p>A privacy-focused mental-health triage and grounding experience designed for offline use.</p><span class="project-role">Project Lead</span></div><a class="round-link" href="https://github.com/Rachit6174/Re-Leaf" target="_blank" rel="noopener noreferrer" aria-label="View Re-Leaf on GitHub">↗</a></div>
+        </article>
+        <article class="project-card project-featured">
+          <div class="project-banner banner-number"><span class="project-index">PROJECT 03</span><span class="banner-icon">?</span><span class="banner-label">LOGIC · PLAY · GUESS AGAIN</span></div>
+          <div class="project-details"><div><p class="mono muted">MINI PROJECT</p><h3>Number Guessing Challenge</h3><p>A number guessing challenge built as a mini project.</p><span class="project-role">Project Lead</span></div><a class="round-link" href="https://github.com/Rachit6174/Mini-Project" target="_blank" rel="noopener noreferrer" aria-label="View Number Guessing Challenge on GitHub">↗</a></div>
+        </article>
       </div>
     </section>
 
     <section class="section interests-section" id="hobbies">
       <div class="section-heading"><p class="eyebrow">05 / Outside the screen</p><h2>Things that<br><span class="accent-text">inspire me.</span></h2></div>
       <div class="interest-list">
-        <article class="interest-item"><span class="interest-symbol">✳</span><div><h3>Reading</h3><p>Finding new ideas and different points of view.</p></div><span class="interest-arrow">↗</span></article>
-        <article class="interest-item"><span class="interest-symbol">♫</span><div><h3>Music</h3><p>A good soundtrack for quiet focus or a fresh start.</p></div><span class="interest-arrow">↗</span></article>
-        <article class="interest-item"><span class="interest-symbol">＋</span><div><h3>Your hobby</h3><p>Replace this with something you enjoy doing.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">♫</span><div><h3>Guitar &amp; piano</h3><p>Playing music and learning songs on both instruments.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">▤</span><div><h3>Books</h3><p>Reading fiction, nonfiction, and whatever catches my curiosity.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">⚽</span><div><h3>Sports</h3><p>Watching sports and playing cricket, basketball, kabaddi, tennis, and football.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">♟</span><div><h3>Chess</h3><p>Enjoying a thoughtful game and its many possibilities.</p></div><span class="interest-arrow">↗</span></article>
+        <article class="interest-item"><span class="interest-symbol">✎</span><div><h3>Canvas &amp; abstract painting</h3><p>Exploring color and ideas through painting.</p></div><span class="interest-arrow">↗</span></article>
       </div>
     </section>
 
     <section class="section achievements-section" id="achievements">
       <div class="section-heading"><p class="eyebrow">06 / Milestones</p><h2>Little wins<br>along the way.</h2></div>
-      <div class="achievement-card"><span class="achievement-stamp">✳</span><div><p class="mono muted">YEAR · EVENT</p><h3>Your certificate or achievement</h3><p>Add a workshop, award, competition, course, or another milestone you’re proud of.</p></div><span class="achievement-arrow">↗</span></div>
-      <p class="fine-print">Still working toward your first certificate? Replace this card with a learning goal.</p>
+      <div class="achievement-list">
+        <article class="achievement-card"><span class="achievement-stamp">✳</span><div><p class="mono muted">2026 · ONGOING</p><h3>Smart India Hackathon (SIH) 2026</h3><p>Participating in the ongoing national innovation challenge.</p></div><span class="achievement-arrow">↗</span></article>
+        <article class="achievement-card"><span class="achievement-stamp">⌘</span><div><p class="mono muted">HACKATHON</p><h3>BST Prothon</h3><p>Participated in BOSSCODER School of Technology’s internal hackathon.</p></div><span class="achievement-arrow">↗</span></article>
+        <article class="achievement-card"><span class="achievement-stamp">✦</span><div><p class="mono muted">BANGALORE</p><h3>DEVONOVATE Hack with Bangalore 4.0</h3><p>Recently participated in the event in Bangalore.</p></div><span class="achievement-arrow">↗</span></article>
+      </div>
     </section>
 
     <section class="contact-section" id="contact">
       <div class="contact-inner"><p class="eyebrow">07 / Say hello</p><h2>Have an idea?<br><span>I'd love to hear it.</span></h2><p class="contact-intro">Whether it’s a project, a question, or a good book recommendation — my inbox is open.</p>
-        <a class="button button-light" href="mailto:you@example.com">Email me <span aria-hidden="true">↗</span></a>
-        <div class="social-links"><a href="https://github.com/your-username">GitHub ↗</a><a href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
-        <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+        <a class="button button-light" href="mailto:2392608240@svyasa-sas.edu.in">Email me <span aria-hidden="true">↗</span></a>
+        <div class="social-links"><a href="https://github.com/Rachit6174" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/ugkiuvj/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+        <form class="contact-form" action="mailto:2392608240@svyasa-sas.edu.in" method="post" enctype="text/plain">
           <p class="form-heading">Or leave a note</p>
           <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
           <label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required>
@@ -126,7 +142,7 @@
     </section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">YN</span><span>Your Name</span></a><p>Made with patience, practice, and HTML + CSS.</p><a href="#home">Back to top ↑</a></footer>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">RA</span><span>Rachit B Angadi</span></a><p>Built with curiosity, practice, and a little bit of code.</p><a href="#home">Back to top ↑</a></footer>
   </div>
 </body>
 </html>
